@@ -64,14 +64,16 @@
     width: 568px;
     padding: 136px;
     margin-left: -300px;
-    background: rgba(192,192,192,0.9);
+    background:rgba(45, 15, 15, 0.9);
     height: 489px;
+    border-radius:15px;
 }
         p{
             margin-bottom: 1.5em;
             margin: 37px -8px 21px;
             width: 343px;
             font-size:15px;
+            color: rgba(135,205, 6);
         }
         h1, .h1 {
     font-size: 30px;
@@ -80,7 +82,7 @@
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-    color: inherit;
+    color:rgba(135,205, 6);
 }
     </style>
     <script type="text/javascript">
@@ -150,7 +152,7 @@ $(window).load(function() {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="page-header clearfix">
+                        
                             <!--<h2 class="pull-left">Agro Roque</h2>-->
                             <a href="create.php" class="btn btn-success pull-right">Cadastrar-se</a> 
                             <a href="login.php" class="btn btn-success pull-right">Login</a> 
@@ -213,7 +215,7 @@ $(window).load(function() {
     <p>
       Katia ..... e Alexandre ...... residem no múcipio de Balneario Gaivota, no bairro Figueirinha onde antes de terem a agropecuária criavam diversos tipos de animais (.....).
       <p>
-      Localizada tamnbém no municipio de Balneário Gaivota AGRO ROQUE se encontra na Rod. José Tiscoski, 3079 - Lagoa de Fora.
+      Localizada também no municipio de Balneário Gaivota, AGRO ROQUE se encontra na Rod. José Tiscoski, 3079 - Lagoa de Fora.
       </p>              
     </p>
     </div>

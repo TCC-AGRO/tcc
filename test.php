@@ -1,5 +1,5 @@
 <html class="no-js wf-opensans-n4-active wf-active" lang="en" xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]--><head>
-    <title>Bootstrap</title>
+    <title>Agro Roque</title>
     <meta name="description" content="We are a tech oriented store with the best deals and products.">
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -163,7 +163,14 @@ body {
     line-height: 1.5;
     color: #1C1C1C;
     text-align: left;
+    background-color:rgba(132,193,66);
    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:rgba(132,193,66) ;
+}
+.bg-dark {
+    background-color:#1C1C1C !important;
 }
 
 </style>
@@ -230,7 +237,7 @@ body {
             <ul id="navbarContainerMobile" class="navbar-nav d-lg-none">
               
               <li class="nav-item  ">
-  <a href="/" title="Inicio" class="level-1 trsn nav-link">Inicio</a>
+  <a href="index.php" title="Inicio" class="level-1 trsn nav-link">Inicio</a>
   
 </li>
 
@@ -319,7 +326,7 @@ body {
 
               
               <li>
-                <a href="/customer/login" id="login-link" class="trsn nav-link" title="Login toBootstrap">
+                <a href="login.php" id="login-link" class="trsn nav-link" title="Login toBootstrap">
                   <i class="fas fa-user"></i>
                   <span class="customer-name">
                     Login

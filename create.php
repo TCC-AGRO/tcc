@@ -122,9 +122,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{
             width: 500px;
             margin: 0 auto;
+            color:white;
         }
         body {
-            background-color :#92C47D;
+            background-color :#1A1617;
+        }
+        .btn btn-default{
+            color:green;
+        }
+        p{
+            margin:25px -13px;
+            font-size:30px;
         }
     </style>
 </head>
@@ -133,8 +141,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="page-header">
-                        <h2>Cadastre-se</h2>
+                        
+                        <p>Cadastre-se</p>
+                       
                     </div>
                     <!--<p>Please fill this form and submit to add employee record to the database.</p>-->
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?> "  method="post">
@@ -144,12 +153,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <span class="help-block"><?php echo $name_err;?></span>
                         </div>
                         <div class="form-group <?php echo (!empty($email_err)) ? 'has-error' : ''; ?>">
-                            <label>e-mail</label>
+                            <label>E-mail</label>
                             <input type="text" name="email" class="form-control" value="<?php echo $email; ?>">
                             <span class="help-block"><?php echo $email_err;?></span>
                         </div>
                         <div class="form-group <?php echo (!empty($senha_err)) ? 'has-error' : ''; ?>">
-                            <label>senha</label>
+                            <label>Senha</label>
                             <input type="text"name="senha" class="form-control"><?php echo $senha; ?>
                             <span class="help-block"><?php echo $senha_err;?></span>
                         </div>
@@ -173,8 +182,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <input type="text" name="bairro" class="form-control" value="<?php echo $bairro; ?>">
                             <span class="help-block"><?php echo $bairro_err;?></span>
                         </div>
-                        <input type="submit" class="btn btn-primary" value="cadastrar">
-                        <a href="index.php" class="btn btn-default">Cancelar</a>
+                        <input type="submit" class="btn btn-primary" value="Cadastrar">
+                        <a href="index.php" class="btn btn-default">voltar</a>
                     </form>
                 </div>
             </div>        

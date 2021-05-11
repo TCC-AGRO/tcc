@@ -90,7 +90,7 @@ require_once "config.php";
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="page-header">
+                    
                         <h2></h2>
                     </div>
                     <!--<p>Please fill this form and submit to add employee record to the database.</p>-->
@@ -107,7 +107,7 @@ require_once "config.php";
                             <span class="help-block"><?php echo $senha_err;?></span>
                         
                         <input type="submit" class="btn btn-primary" value="Login">
-                        <a href="index.php" class="btn btn-default">Cancelar</a>
+                        <a href="index.php" class="btn btn-default">Voltar</a>
                     </form>
                 </div>
             </div>        
