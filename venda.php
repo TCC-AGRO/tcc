@@ -35,9 +35,9 @@
 
 <meta property="og:locale:alternate" content="es">
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> 
     
     <link rel="alternate" hreflang="en" href="https://bootstrap.jumpseller.com/">
     
@@ -172,7 +172,126 @@ body {
 .bg-dark {
     background-color:#1C1C1C !important;
 }
+#myFooter{
+    padding-top:30px;
+}
 
+#myFooter .container{
+    text-align: center;
+    
+}
+
+
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 1px;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: white;
+    font-size: 18px;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom:25px;
+    background-color: #eee;
+    
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+   color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus{
+    color: #2b55ff; 
+}
+
+#myFooter .{
+
+}
+
+
+#myFooter .{
+    
+}
+
+#myFooter .fa-youtube:hover{
+    color:red;
+}
+
+#myFooter .fa-youtube:focus{
+    color:red;
+}
+
+#myFooter .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+#myFooter .fa-twitter:focus{
+    color:#00aced;
+}
+
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 0px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+   background-color:#1C1C1C;
+}
+
+  
+ .insta{
+  width: 70px;
+  
+}
+.face{
+  width:50px;
+}
+.loc{
+  width: 40px;
+}
 </style>
 
   
@@ -802,17 +921,29 @@ body {
   
 </div>
 
-    <hr>
+    
 
     <!-- Footer -->
-    <div class="container">
-      <footer>
-        <div class="row">
-          <div class="col-12 text-center">
-            <p class="powerd-by">© 2021 Bootstrap. All Rights Reserved. Powered by <a href="https://jumpseller.cl/?utm_medium=store&amp;utm_source=bootstrap" title="Crear Tienda Online" target="_blank" rel="nofollow noopener">Jumpseller</a>.</p>
-          </div>
+   
+      <footer id="myFooter">
+        
+        <div class="container">
+            <ul>
+                <li><a href="https://programadorviking.com.br/">|  Informações da Empresa   </a></li>
+                <li><a href="https://programadorviking.com.br/">Contato   </a></li>
+                <li><a href="https://programadorviking.com.br/">Login </a></li>
+                <li><a href="https://bit.ly/front-end-curso-completo-promocao-01">Home  |</a></li>
+            </ul>
+            <p class="footer-copyright">© 2021 Copyright - Leonardo Luiz Machado & Rodrigo de Oliveira Serafim</p>
+        </div>
+        <div class="footer-social">
+             <a href="https://instagram.com/usuario" ><img src="https://w7.pngwing.com/pngs/953/528/png-transparent-instagram-icon-logo-desktop-computer-icons-instagram-miscellaneous-text-bing.png"class="insta" ></a>
+             <a href="https://facebook.com/usuario" ><img src="data:image/png;base64,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"class="face" ></a>
+             <a href="https://www.google.com/maps/dir/-29.1172567,-49.6401092/Agropecu%C3%A1ria+Roque+-+Rod.+Jos%C3%A9+Tiscoski,+3079+-+Lagoa+de+Fora,+Balne%C3%A1rio+Gaivota+-+SC,+88955-000/@-29.1230004,-49.6412933,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x95223960e5caf49b:0xdf402c4b9ec742da!2m2!1d-49.6073621!2d-29.1337231" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiPd2NAyDC1uiJLKnM5F6KuXOSvxuzShM6LQ&usqp=CAU"class="loc" ></a>
 
         </div>
+
+        
       </footer>
 
     </div>
@@ -850,7 +981,10 @@ body {
     </script>
     <script type="text/javascript" src="https://assets.jumpseller.com/store/bootstrap/themes/178791/addtocart.js?1608585274"></script>
     
-  
+   
+    
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-</body></html>
+</body>
+</html>
